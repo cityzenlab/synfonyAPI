@@ -1,0 +1,3 @@
+czs_user:
+    resource: "@AppBundle/Resources/config/routing.yml"
+    prefix:   /

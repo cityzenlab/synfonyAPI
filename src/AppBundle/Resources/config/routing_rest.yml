@@ -1,0 +1,6 @@
+#app/routing_rest.yml
+user :
+   type: rest
+   resource: "@AppBundle/Controller/UserRestController.php"
+   name_prefix:  api_
+   prefix : /
