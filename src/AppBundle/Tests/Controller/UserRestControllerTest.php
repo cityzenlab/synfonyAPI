@@ -21,8 +21,14 @@ class UserRestControllerTest extends WebTestCase {
 
         $response = $client->getResponse();
 
-        $this->assertJsonResponse($response, 200);
+        $this->assertContains(
+            'OK',
+            $response->getContent()
+        );
     }
+
+
+
 
     protected function assertJsonResponse($response, $statusCode = 200)
     {

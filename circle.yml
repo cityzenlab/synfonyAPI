@@ -1,9 +1,13 @@
-##  Set my machine
+## Customize the test machine
 machine:
+# Version of php to use
   php:
     version: 5.5.11
 
-##  Test
+# Add some environment variables
+environment:
+    CIRCLE_ENV: test
+
 test:
   override:
     - php -d memory_limit=-1 bin/phpunit -c app

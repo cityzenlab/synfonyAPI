@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9eadf6a8-a961-445d-b2bf-fc0ae1afb028" name="Default" comment="Circle CI : Test">
+    <list default="true" id="9eadf6a8-a961-445d-b2bf-fc0ae1afb028" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Tests/Controller/UserRestControllerTest.php" afterPath="$PROJECT_DIR$/src/AppBundle/Tests/Controller/UserRestControllerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/phpunit.xml.dist" afterPath="$PROJECT_DIR$/app/phpunit.xml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle.yml" afterPath="$PROJECT_DIR$/circle.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="synfoSimple.iws" />
@@ -36,31 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserRestControllerTest.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserRestControllerTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Tests/Controller/UserRestControllerTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3461537" vertical-offset="64" max-vertical-offset="663">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phpunit.xml.dist" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/phpunit.xml.dist">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="circle.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/circle.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.7208029" vertical-offset="64" max-vertical-offset="765">
+              <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -76,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="circle.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/circle.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3715847" vertical-offset="0" max-vertical-offset="549">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -112,8 +92,8 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/UserRestController.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/circle.yml" />
         <option value="$PROJECT_DIR$/app/phpunit.xml.dist" />
+        <option value="$PROJECT_DIR$/circle.yml" />
         <option value="$PROJECT_DIR$/src/AppBundle/Tests/Controller/UserRestControllerTest.php" />
       </list>
     </option>
@@ -251,7 +231,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="phpunit.xml.dist&#9;FILE&#9;file://C:/wamp/www/synfoSimple/app/phpunit.xml.dist&#10;phpunit&#9;FILE&#9;file://C:/wamp/www/synfoSimple/app/phpunit.xml.dist&#10;parameters.yml&#9;FILE&#9;file://C:/wamp/www/synfoSimple/app/config/parameters.yml&#10;phpunit.xml&#9;FILE&#9;file://C:/wamp/www/synfoSimple/vendor/phpunit/php-token-stream/build/phpunit.xml&#10;phpunit.xml.dist &#9;FILE&#9;file://C:/wamp/www/synfoSimple/app/phpunit.xml.dist&#10;config.yml&#9;FILE&#9;file://C:/wamp/www/synfoSimple/app/config/config.yml&#10;appkernel&#9;FILE&#9;file://C:/wamp/www/synfoSimple/app/AppKernel.php&#10;FOSRestBundle&#9;null&#9;null&#10;appkerne&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="par&#9;FILE&#9;file://C:/wamp/www/synfoSimple/app/config/parameters.yml&#10;phpunit.xml.dist&#9;FILE&#9;file://C:/wamp/www/synfoSimple/app/phpunit.xml.dist&#10;phpunit&#9;FILE&#9;file://C:/wamp/www/synfoSimple/app/phpunit.xml.dist&#10;parameters.yml&#9;FILE&#9;file://C:/wamp/www/synfoSimple/app/config/parameters.yml&#10;phpunit.xml&#9;FILE&#9;file://C:/wamp/www/synfoSimple/vendor/phpunit/php-token-stream/build/phpunit.xml&#10;phpunit.xml.dist &#9;FILE&#9;file://C:/wamp/www/synfoSimple/app/phpunit.xml.dist&#10;config.yml&#9;FILE&#9;file://C:/wamp/www/synfoSimple/app/config/config.yml&#10;appkernel&#9;FILE&#9;file://C:/wamp/www/synfoSimple/app/AppKernel.php&#10;FOSRestBundle&#9;null&#9;null&#10;appkerne&#9;null&#9;null" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
   </component>
@@ -355,7 +335,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447321150021</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Circle CI : Test">
+      <created>1447323558890</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1447323558890</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -589,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1122">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/FOSRestBundle.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="544">
@@ -757,6 +736,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/phpunit.xml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.16" vertical-offset="0" max-vertical-offset="306">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.30291972" vertical-offset="574" max-vertical-offset="1122">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
@@ -767,32 +770,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/circle.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/phpunit.xml.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Tests/Controller/UserRestControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3461537" vertical-offset="64" max-vertical-offset="663">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3715847" vertical-offset="0" max-vertical-offset="549">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.7208029" vertical-offset="64" max-vertical-offset="765">
+          <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
           <folding />
         </state>
       </provider>
