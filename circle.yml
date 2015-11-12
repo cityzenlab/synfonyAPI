@@ -4,11 +4,13 @@ machine:
   php:
     version: 5.5.11
 
-# Add some environment variables
+# Init database for test
+database:
+    override:
+       - mysql -u ubuntu symfony < /home/ubuntu/synfonyAPI/app/initSql.sql
+
+# Test
 test:
   override:
     - php -d memory_limit=-1 bin/phpunit -c app
 
-database:
-    override:
-       - mysql -u ubuntu circle_test < /home/ubuntu/synfonyAPI/app/initSql.sql
