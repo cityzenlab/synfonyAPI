@@ -36,7 +36,7 @@ class UserRestControllerTest extends WebTestCase {
         $response = $client->getResponse();
 
         $this->assertContains(
-            'pbborel@gmail.com',
+            'vilain@gmail.com',
             $response->getContent()
         );
     }
