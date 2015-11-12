@@ -7,7 +7,12 @@ dependencies:
     - "~/docker"
   override:
     - docker info
-    - if [[ -e ~/docker/image.tar ]]; then docker load --input ~/docker/image.tar; fi
     - docker build -t "citizenlab/elasticsearch" .
-    - mkdir -p ~/docker; docker save citizenlab/elasticsearch > ~/docker/image.tar
+
+deployment:
+  hub:
+    branch: master
+    commands:
+      - docker login -e dev@cityzensciences.fr -u citizenlab -p czsdev2015
+      - docker push "citizenlab/elasticsearch"
 
