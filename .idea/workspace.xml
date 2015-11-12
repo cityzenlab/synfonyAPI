@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eadf6a8-a961-445d-b2bf-fc0ae1afb028" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle.yml" afterPath="$PROJECT_DIR$/circle.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/initSql.sql" afterPath="$PROJECT_DIR$/app/initSql.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="synfoSimple.iws" />
@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="initSql.sql" pinned="false" current-in-tab="false">
+      <file leaf-file-name="initSql.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/initSql.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="884">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            <state vertical-scroll-proportion="1.424408" vertical-offset="0" max-vertical-offset="884">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="circle.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="circle.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/circle.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38501742" vertical-offset="0" max-vertical-offset="574">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
               <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
               <folding />
             </state>
@@ -113,8 +113,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/phpunit.xml.dist" />
         <option value="$PROJECT_DIR$/src/AppBundle/Tests/Controller/UserRestControllerTest.php" />
-        <option value="$PROJECT_DIR$/app/initSql.sql" />
         <option value="$PROJECT_DIR$/circle.yml" />
+        <option value="$PROJECT_DIR$/app/initSql.sql" />
       </list>
     </option>
   </component>
@@ -353,7 +353,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447335882045</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Circle CI : Test">
+      <created>1447336430934</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1447336430934</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -780,18 +786,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/initSql.sql">
+    <entry file="file://$PROJECT_DIR$/circle.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="884">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/circle.yml">
+    <entry file="file://$PROJECT_DIR$/app/initSql.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38501742" vertical-offset="0" max-vertical-offset="574">
-          <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
+        <state vertical-scroll-proportion="1.424408" vertical-offset="0" max-vertical-offset="884">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>

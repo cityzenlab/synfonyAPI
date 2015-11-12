@@ -1,4 +1,4 @@
- phpMyAdmin SQL Dump
+-- phpMyAdmin SQL Dump
 -- version 4.1.14
 -- http://www.phpmyadmin.net
 --
@@ -38,8 +38,8 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 INSERT INTO `user` (`id`, `name`, `email`) VALUES
-(1, 'Borel', 'pbborel@gmail.com'),
-(2, 'Vicenti', 'jmv@gmail.com');
+  (1, 'Borel', 'pbborel@gmail.com'),
+  (2, 'Vicenti', 'jmv@gmail.com');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
