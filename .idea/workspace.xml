@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/circle.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.2369338" vertical-offset="0" max-vertical-offset="574">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -383,7 +383,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447342213815</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Circle CI : Test">
+      <created>1447342341287</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1447342341287</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -818,7 +824,7 @@
     <entry file="file://$PROJECT_DIR$/circle.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2369338" vertical-offset="0" max-vertical-offset="574">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding />
         </state>
       </provider>
