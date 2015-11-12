@@ -1,9 +1,9 @@
-// Set my machine
+##  Set my machine
 machine:
   php:
     version: 5.5.11
 
-// Test
+##  Test
 test:
   override:
     - php -d memory_limit=-1 bin/phpunit -c app
