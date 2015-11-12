@@ -7,6 +7,7 @@ machine:
 # Init database for test
 database:
     override:
+       - mysql -u ubuntu -e "Create database symfony"
        - mysql -u ubuntu symfony < /home/ubuntu/synfonyAPI/app/initSql.sql
 
 # Test
