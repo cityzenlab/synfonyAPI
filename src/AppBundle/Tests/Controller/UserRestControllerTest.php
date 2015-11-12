@@ -17,7 +17,7 @@ class UserRestControllerTest extends WebTestCase {
     {
         $client = static::createClient();
 
-        $crawler = $client->request('GET', '/api/user/casier');
+        $crawler = $client->request('GET', '/api/user/test');
 
         $response = $client->getResponse();
 
