@@ -3,9 +3,8 @@ machine:
     - docker
 
 dependencies:
-
   override:
     - docker info
-    - docker build.
+    - docker build -t citizenlab/elasticsearch.
 
 
