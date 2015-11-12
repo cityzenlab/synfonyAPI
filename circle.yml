@@ -1,3 +1,9 @@
+// Set my machine
 machine:
   php:
     version: 5.5.11
+
+// Test
+test:
+  override:
+    - phpunit -c app src\AppBundle\Tests\Controller\UserRestControllerTest.php

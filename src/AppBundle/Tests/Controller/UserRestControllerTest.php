@@ -9,7 +9,7 @@
 namespace AppBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
-use AppBundle\Controller\UserRestController;
+
 
 class UserRestControllerTest extends WebTestCase {
 
