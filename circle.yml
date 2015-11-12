@@ -6,4 +6,4 @@ machine:
 // Test
 test:
   override:
-    - phpunit -c app src\AppBundle\Tests\Controller\UserRestControllerTest.php
+    - php -d memory_limit=-1 bin/phpunit -c app
