@@ -2,7 +2,6 @@ machine:
   services:
     - docker
 
-# Integration Docker
 dependencies:
   cache_directories:
     - "~/docker"
@@ -16,4 +15,3 @@ deployment:
     commands:
       - docker login -e dev@cityzensciences.fr -u citizenlab -p czsdev2015
       - docker push "citizenlab/elasticsearch"
-
