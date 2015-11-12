@@ -5,8 +5,10 @@ machine:
     version: 5.5.11
 
 # Add some environment variables
-
-
 test:
   override:
     - php -d memory_limit=-1 bin/phpunit -c app
+
+database:
+    override:
+       - mysql -u ubuntu circle_test < initSQL.sql
