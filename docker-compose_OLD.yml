@@ -1,0 +1,5 @@
+application:
+    image: symfony/code
+    volumes:
+        - symfony:/home/ubuntu/synfonyAPI
+    tty: true

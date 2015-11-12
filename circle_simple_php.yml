@@ -4,7 +4,6 @@ machine:
   php:
     version: 5.5.11
 
-
 # Init database for test
 database:
     override:
