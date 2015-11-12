@@ -6,6 +6,6 @@ dependencies:
 
   override:
     - docker info
-    - docker build -t borel
+    - docker build -t citizenlab/test.
 
 
