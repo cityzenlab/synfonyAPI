@@ -8,7 +8,7 @@ dependencies:
     - "~/docker"
   override:
     - docker info
-    - docker build -t "citizenlab/code".
+    - docker build -t "citizenlab/code" .
 
 deployment:
   hub:
