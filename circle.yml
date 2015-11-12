@@ -11,4 +11,4 @@ test:
 
 database:
     override:
-       - pwd
+       - mysql -u ubuntu circle_test < /home/ubuntu/synfonyAPI/app/initSql.sql
