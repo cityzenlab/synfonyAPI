@@ -27,7 +27,19 @@ class UserRestControllerTest extends WebTestCase {
         );
     }
 
+    public function testAPIDBResponse()
+    {
+        $client = static::createClient();
 
+        $crawler = $client->request('GET', '/api/users/borel');
+
+        $response = $client->getResponse();
+
+        $this->assertContains(
+            'pbborel@gmail.com',
+            $response->getContent()
+        );
+    }
 
 
     protected function assertJsonResponse($response, $statusCode = 200)

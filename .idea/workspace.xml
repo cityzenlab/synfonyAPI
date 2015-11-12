@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9eadf6a8-a961-445d-b2bf-fc0ae1afb028" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Tests/Controller/UserRestControllerTest.php" afterPath="$PROJECT_DIR$/src/AppBundle/Tests/Controller/UserRestControllerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle.yml" afterPath="$PROJECT_DIR$/circle.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="synfoSimple.iws" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="UserRestControllerTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Tests/Controller/UserRestControllerTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7208029" vertical-offset="64" max-vertical-offset="765">
-              <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.25547445" vertical-offset="115" max-vertical-offset="969">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -341,7 +340,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447323558890</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Circle CI : Test">
+      <created>1447325448385</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1447325448385</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -778,8 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Tests/Controller/UserRestControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7208029" vertical-offset="64" max-vertical-offset="765">
-          <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.25547445" vertical-offset="115" max-vertical-offset="969">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
