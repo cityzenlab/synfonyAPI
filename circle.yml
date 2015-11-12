@@ -11,4 +11,4 @@ test:
 
 database:
     override:
-       - mysql -u ubuntu circle_test < bin/initSQL.sql
+       - pwd
