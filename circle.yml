@@ -3,8 +3,11 @@ machine:
     - docker
 
 dependencies:
+  cache_directories:
+    - "~/docker"
   override:
     - docker info
+    - if [[ -e ~/docker/image.tar ]]; then docker load --input ~/docker/image.tar; fi
     - docker build -t citizenlab/elasticsearch.
-
+    - mkdir -p ~/docker; docker save citizenlab/elasticsearch > ~/docker/image.tar
 
