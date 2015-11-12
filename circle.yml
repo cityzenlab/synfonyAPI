@@ -5,16 +5,15 @@ machine:
 dependencies:
   override:
     - docker info
-    - docker build -t circleci/elasticsearch .
+    - docker build -t --tag="citizenlab" --file="/home/ubuntu/synfonyAPI/app/Dockerfile".
 
 test:
   override:
-    - docker run -d -p 9200:9200 circleci/elasticsearch; sleep 10
-    - curl --retry 10 --retry-delay 5 -v http://localhost:9200
+
 
 deployment:
   hub:
     branch: master
     commands:
       - docker login -e dev@cityzensciences.fr -u citizenlab -p czsdev2015
-      - docker push circleci/elasticsearch
+      - docker push test
