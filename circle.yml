@@ -8,12 +8,12 @@ dependencies:
     - "~/docker"
   override:
     - docker info
-    - docker build -t "citizenlab/phpApi".
+    - docker build -t "citizenlab/code".
 
 deployment:
   hub:
     branch: master
     commands:
       - docker login -e dev@cityzensciences.fr -u citizenlab -p czsdev2015
-      - docker push "citizenlab/phpApi"
+      - docker push "citizenlab/code"
 
