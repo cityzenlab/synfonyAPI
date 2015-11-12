@@ -1,17 +1,20 @@
-## Customize the test machine
 machine:
-# Version of php to use
-  php:
-    version: 5.5.11
+  services:
+    - docker
 
-# Init database for test
-database:
-    override:
-       - mysql -u ubuntu -e "Create database symfony"
-       - mysql -u ubuntu symfony < /home/ubuntu/synfonyAPI/app/initSql.sql
+dependencies:
+  override:
+    - docker info
+    - docker build -t circleci/elasticsearch .
 
-# Test
 test:
   override:
-    - php -d memory_limit=-1 bin/phpunit -c app
+    - docker run -d -p 9200:9200 circleci/elasticsearch; sleep 10
+    - curl --retry 10 --retry-delay 5 -v http://localhost:9200
 
+deployment:
+  hub:
+    branch: master
+    commands:
+      - docker login -e dev@cityzensciences.fr -u citizenlab -p czsdev2015
+      - docker push circleci/elasticsearch
