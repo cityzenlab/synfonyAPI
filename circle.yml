@@ -1,13 +1,30 @@
 machine:
+  php:
+    version: 5.5.11
   services:
     - docker
 
+
+
+# Init database for test
+database:
+    override:
+       - mysql -u ubuntu -e "Create database symfony"
+       - mysql -u ubuntu symfony < /home/ubuntu/synfonyAPI/app/initSql.sql
+
+# Test
+test:
+  override:
+    - php -d memory_limit=-1 bin/phpunit -c app
+
+
+#DOCKER DEPLOY
 dependencies:
   cache_directories:
     - "~/docker"
   override:
     - docker info
-    - docker build -t "citizenlab/code/v2" .
+    - docker build -t "citizenlab/api" .
 
 
 deployment:
@@ -15,4 +32,4 @@ deployment:
     branch: master
     commands:
       - docker login -e dev@cityzensciences.fr -u citizenlab -p czsdev2015
-      - docker push "citizenlab/code"
+      - docker push "citizenlab/api"
